@@ -1,3 +1,3 @@
 ## Como executar?
 
-Apenas inicie a aplicação com `npm start`
+Coloque o arquivo `.env` neste diretório e apenas inicie a aplicação com `npm start`
