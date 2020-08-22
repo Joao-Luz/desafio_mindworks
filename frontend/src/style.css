@@ -1,0 +1,32 @@
+.custom-card{
+    max-width: 400px;
+    margin: auto;
+}
+
+.users-container{
+    max-width: 800px;
+    margin-top: 2rem;
+}
+
+.content-container{
+    margin: 5rem auto;
+    padding: 0 1rem;
+}
+
+.thick-border{
+    border: solid black 3px !important;
+}
+
+.wide-button{
+    width: 100%;
+}
+
+.error-notice{
+    position: absolute;
+    left: 100px;
+    color: red;
+}
+
+.link:hover{
+    cursor: pointer;
+}
