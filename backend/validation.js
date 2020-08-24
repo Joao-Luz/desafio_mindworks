@@ -9,6 +9,7 @@ const registerValidation = (data) => {
         job: Joi.string().min(4).max(255).required(),
         email: Joi.string().min(6).required().email(),
         password: Joi.string().min(6).required(),
+        password_check: Joi.string().required()
     });
 
     return schema.validate(data);
@@ -23,6 +24,7 @@ const updateValidation = (data) => {
         job: Joi.string().min(4).max(255),
         email: Joi.string().min(6).email(),
         password: Joi.string().min(6),
+        password_check: Joi.string()
     });
 
     return schema.validate(data);

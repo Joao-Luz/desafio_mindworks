@@ -88,9 +88,10 @@ export default function Register() {
                       
                       <Col xs={4}>
                         <Form.Label>Sexo</Form.Label>
-                        <Form.Control as='select' defaultValue='Masculino' className='thick-border'id="register-last_name" onChange={
+                        <Form.Control as='select' className='thick-border'id="register-last_name" onChange={
                             (e) => setSex(e.target.value === 'Masculino' ? 'male' : (e.target.value === 'Feminino' ? 'female' : 'other'))
                           } custom >
+                          <option> </option>
                           <option>Masculino</option>
                           <option>Feminino</option>
                           <option>Outro</option>
